@@ -123,4 +123,3 @@ let idade = 25; // Aviso: variável não usada
 - Ponto e vírgula adicionado (`semi`).
 - Concatenação substituída por template literal (`prefer-template`).
 - Aviso sobre `idade` não usada (`no-unused-vars`).
-```
