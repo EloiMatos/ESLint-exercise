@@ -75,10 +75,15 @@ Algumas regras que podem ser personalizadas no `.eslintrc.js`:
 Exemplo de configuração:
 ```javascript
 module.exports = {
+  "env": {
+    "node": true
+  },
   "rules": {
     "semi": ["error", "always"],
     "quotes": ["error", "single"],
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "eqeqeq": "error",
+    "prefer-template": "error"
   }
 };
 ```
