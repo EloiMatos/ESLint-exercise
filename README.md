@@ -7,7 +7,7 @@ O [ESLint](https://eslint.org/) é uma ferramenta de linting para JavaScript que
 1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 2. No terminal, no diretório do seu projeto, instale o ESLint e dependências necessárias:
    ```bash
-   npm install eslint @eslint/js globals --save-dev
+   npm install eslint @eslint/js --save-dev
    ```
 3. Crie um arquivo de configuração `eslint.config.mjs` na raiz do projeto. Um exemplo básico será mostrado abaixo.
 
